@@ -126,6 +126,11 @@ if(anwser == 2){
 
     } else{
         document.getElementById('hello name').innerHTML = ('Incorrect');
-    }
+    }if(anwser == 69420) {
+      document.getElementById('hello name').innerHTML = ('NICE') 
+      
+    } 
+
+
 
 
