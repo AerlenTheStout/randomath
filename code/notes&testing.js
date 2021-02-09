@@ -1,4 +1,4 @@
-
+/*
 //changeing what is on the screen with javascript
 
 //var age = prompt('What is your age?')
@@ -29,58 +29,58 @@
 //console.log(num1 % 3)
 
 
-/*functions
+functions
 STEP 1 Create the funtion
 STEP 2 Call the funtion
-*/
 
 
 
-/* lets make a function that when called says hello your name 
+
+ lets make a function that when called says hello your name 
 for example
 
 Name: "james"
 return: hello james
-*/
 
 
-/*function greeting(yourName){
+
+function greeting(yourName){
     var result = 'hello ' + yourName; // creates response
     console.log(result) //displays response
 }
 
 var yourName = prompt('what is your name'); //asks your name
 
-greeting();*/
+greeting();
 
 // arguments in functions
 //adding 2 numbers in a function
 
-/*function sumNumbers(num1, num2){
+function sumNumbers(num1, num2){
 var result = num1 + num2;
 console.log(result)
 
 }
 
-sumNumbers(10, 10)*/
+sumNumbers(10, 10)
 
 //WHILE LOOPS
 
-/*var num = 0;
+var num = 0;
 
 while (num < 100){
     num += 1;
     console.log(num)
 
-}*/
+}
 
 //for loop
-/*
+
 for (let num = 0; num < 100; num++){
     console.log(num);
 
 }
-*/
+
 
 // Data types
 let age = 20      // number
@@ -116,40 +116,4 @@ console.log(fruits[2]);
 const arr = new Array('try',"me")
 arr[0] = ('eat')
 console.log(arr)
-
-
-
-var questions = [{ question: 'Are you ready to play?', 
-answers: ['yep','yes','yea','yeah','hell yeah','hell yea','absolutely','duh','of course', 'sure'], 
-affirm: 'Yay! You will be presented with a series of questions. If you answer a questions incorrectly, you cannot advance to the next...', 
-rebuttal: "No, you're definitely ready to play." }];
-if(questions[i].answers.indexOf(answer) > -1)
-
-
-
-function askfunction(){
-  
-  let anwser = prompt('what is ' + x + ' + ' + y)
-  if(anwser == x + y){
-    let yes = ('correct')
-    alert('correct')
-
-    }else{
-        let no = ("incorrect")
-        alert('incorrect')
-    }
-      
-} 
-let x = Math.floor((Math.random() * 100) + 1)
-console.log(x)
-let y = Math.floor((Math.random() * 100) + 1)
-console.log(y)
-
-let question = prompt('can i ask you a question')
-if(question == (answers)){
-  askfunction()
-  
-}else alert('ok')
-
-
-
+*/
