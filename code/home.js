@@ -119,13 +119,13 @@ console.log(arr)
 
 
 
-let anwser = prompt('what is 1 - 1')
+let anwser = prompt('what is 1 + 1')
 if(anwser == 2){
     
-    document.getElementById('hello name').innerHTML = ('Correct');
+    document.getElementById('h1').innerHTML=('Correct');
 
     } else{
-        document.getElementById('hello name' ).innerHTML = ('Incorrect');
+        document.getElementById('h1').innerHTML=('Incorrect');
     }
       
     
