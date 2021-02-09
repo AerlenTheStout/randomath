@@ -119,16 +119,31 @@ console.log(arr)
 
 
 
-let anwser = prompt('what is 1 + 1')
-if(anwser == 2){
-    
-    document.getElementById('h1').innerHTML=('Correct');
 
-    } else{
-        document.getElementById('h1').innerHTML=('Incorrect');
+
+
+
+function askfunction(){
+  
+  let anwser = prompt('what is 1 + 1')
+  if(anwser == 2){
+    let yes = ('correct')
+    alert('correct')
+
+    }else{
+        let no = ("incorrect")
+        alert('incorrect')
     }
       
-    
+} 
+
+let question = prompt('can i ask you a question')
+if(question == ('sure')){
+  askfunction()
+  
+}else alert('ok')
+
+
 
 
 
