@@ -119,14 +119,18 @@ console.log(arr)
 
 
 
-
+var questions = [{ question: 'Are you ready to play?', 
+answers: ['yep','yes','yea','yeah','hell yeah','hell yea','absolutely','duh','of course', 'sure'], 
+affirm: 'Yay! You will be presented with a series of questions. If you answer a questions incorrectly, you cannot advance to the next...', 
+rebuttal: "No, you're definitely ready to play." }];
+if(questions[i].answers.indexOf(answer) > -1)
 
 
 
 function askfunction(){
   
-  let anwser = prompt('what is 1 + 1')
-  if(anwser == 2){
+  let anwser = prompt('what is ' + x + ' + ' + y)
+  if(anwser == x + y){
     let yes = ('correct')
     alert('correct')
 
@@ -136,15 +140,16 @@ function askfunction(){
     }
       
 } 
+let x = Math.floor((Math.random() * 100) + 1)
+console.log(x)
+let y = Math.floor((Math.random() * 100) + 1)
+console.log(y)
 
 let question = prompt('can i ask you a question')
-if(question == ('sure')){
+if(question == (answers)){
   askfunction()
   
 }else alert('ok')
-
-
-
 
 
 
