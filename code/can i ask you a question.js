@@ -8,7 +8,7 @@ function askquestion(){
 
     for (var i = 0; i<correctanswers.length; i++){
         if(question === (correctanswers[i])){
-        askaddition()
+        whattype()
   
         }
 }
@@ -21,13 +21,15 @@ function askquestion(){
     }   
 }
 function whattype(){
-    let type = prompt('Do you want to do addition or subtraction')
-    if(type = 'addition'){
-        askaddition()
+    let typeofquestion = prompt('Do you want to do addition or subtraction')
+        if(typeofquestion == ('subtraction')){
+            asksubtraction()
     }
-    if(type = 'subtraction'){
-        asksubtraction()
-    }
+       else if(typeofquestion == ('addition')){
+            askaddition()
+            }
+        
+    
 }
 function askaddition(){
     let x = Math.floor((Math.random() * 100) + 1)
@@ -46,7 +48,7 @@ function askaddition(){
         askagain()
     }
 }
-    function asksubtraction(){
+function asksubtraction(){
     let x = Math.floor((Math.random() * 100) + 1)
     console.log(x)
     let y = Math.floor((Math.random() * 99) + 1)
@@ -68,7 +70,7 @@ function askagain(){
     let do_again = prompt('Do you want to do it again?')
     for (var d = 0; d<correctanswers.length; d++){
         if(do_again === (correctanswers[d])){
-        askaddition()
+        whattype()
             }
         
         }
