@@ -8,7 +8,7 @@
         "name": "Launch Chrome",
         "request": "launch",
         "type": "pwa-chrome",
-        "url": "file:///C:/Users/jaxson/Desktop/coding/js%20tutorial/code/index.html",
+        "url": "file:///C:/Users/jaxson/Desktop/coding/js%20tutorial/code/english/index.html",
         "webRoot": "${workspaceFolder}"
     },    
     ]
