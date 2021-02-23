@@ -1,0 +1,134 @@
+/*master styles*/
+body{
+    margin:0px;
+    
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+/*top nav bar*/
+.nav-wrapper{
+display: flex;
+justify-content: space-between;
+padding: 20px;
+}
+
+.leftside{
+    display: flex;
+}
+
+.nav-wrapper > .leftside > div{
+    margin-right: 20px;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+.nav-link-wrapper{
+    height: 20px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+
+}
+
+.nav-link-wrapper a {
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.nav-link-wrapper:hover {
+    border-bottom: 1px solid black;
+}
+.nav-link-wrapper a:hover {
+    color: black;
+}
+/*math questions*/
+.mathquestions{
+    height: auto;
+    width: auto;
+    text-align: center;
+}
+/*imgs*/
+.btn {
+    background-color: rgb(77, 77, 77);
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+.acolor{background-color: lightskyblue;}
+.scolor{background-color: rgb(83, 172, 83);}
+.mcolor{background-color: lightcoral;}
+.dcolor{background-color: rgb(224, 110, 64);}
+
+
+.questionselector{
+    margin-right: 20em;
+    margin-left: 20em;
+    margin-top: 5em;
+    margin-bottom: 5em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.title{
+    font-size:larger;
+}
+
+.img{
+    height: 50px;
+    width: 50px;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+/*about me page*/
+.f1h{
+    text-align: center;
+    font-size: 40px;
+}
+.f1p{
+    text-align: center;
+    font-size: 25px;
+}
+.f2p{
+    text-align: center;
+    font-size: 35px;
+}
+.f3p{
+    text-align: center;
+    font-size: 25px;
+}
+
+.to-french a{
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    position:fixed; 
+    padding:5px; 
+    bottom:0px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+.to-French{
+    text-decoration: none;
+    color: gray;
+}
+.to-French:hover{
+    text-decoration: none;
+    color: black;
+}
