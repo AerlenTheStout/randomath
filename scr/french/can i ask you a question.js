@@ -9,7 +9,7 @@ function askAddition(){
     let y = Math.floor((Math.random() * 10) + 1)
     console.log(y)
     
-    let anwser = prompt('what is ' + x + ' + ' + y)
+    let anwser = prompt('Qu est-ce que ' + x + ' + ' + y)
     
   if(anwser == x + y){
     
@@ -26,7 +26,7 @@ function askSubtraction(){
     let y = Math.floor((Math.random() * 99) + 1)
     console.log(y)
         
-    let anwser = prompt('what is ' + x + ' - ' + y)
+    let anwser = prompt('Qu est-ce que ' + x + ' - ' + y)
         
       if(anwser == x - y){
         
@@ -44,7 +44,7 @@ function askMultiplication(){
     let y = Math.floor((Math.random() * 10) + 1)
     console.log(y)
         
-    let anwser = prompt('what is ' + x + ' x ' + y)
+    let anwser = prompt('Qu est-ce que ' + x + ' x ' + y)
         
       if(anwser == x * y){
         
@@ -67,7 +67,7 @@ function askDivision(){
     let checkifdecimal = (x / y) 
     let checkfordecimal = (checkifdecimal % 1)
       if(checkfordecimal == 0){
-        let anwser = prompt('what is ' + x + ' ÷ ' + y)
+        let anwser = prompt('Qu est-ce que ' + x + ' ÷ ' + y)
     
           if(anwser == x / y){
         
